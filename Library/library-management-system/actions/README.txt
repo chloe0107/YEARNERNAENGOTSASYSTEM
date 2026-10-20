@@ -1,0 +1,1 @@
+Form processing is currently handled by the validated POST handlers in the root compatibility pages (books.php, categories.php, transactions.php, users.php). Do not redirect POST requests through these route aliases; browser forms should post directly to those handlers until handlers are migrated.

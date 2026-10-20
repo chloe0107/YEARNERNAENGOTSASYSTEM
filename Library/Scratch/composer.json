@@ -1,0 +1,12 @@
+{
+  "name": "school/library-management-system",
+  "description": "School library borrowing and reservation system",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-mysqli": "*",
+    "ext-mbstring": "*",
+    "ext-openssl": "*",
+    "phpmailer/phpmailer": "^6.9"
+  }
+}

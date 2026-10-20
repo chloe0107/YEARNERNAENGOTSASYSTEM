@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/includes/functions.php';if(current_user())log_action('logout','users',current_user()['id'],'User logged out');$_SESSION=[];session_destroy();header('Location: '.url('login.php'));exit;

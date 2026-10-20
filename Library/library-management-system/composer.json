@@ -1,0 +1,13 @@
+{
+  "name": "school/library-borrowing-reservation-system",
+  "description": "PHP and MySQLi library borrowing and reservation system",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-mysqli": "*",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "classmap": ["includes/"]
+  }
+}

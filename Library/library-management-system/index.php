@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/includes/functions.php'; if(current_user())header('Location: '.url('dashboard.php'));else header('Location: '.url('login.php'));exit;
